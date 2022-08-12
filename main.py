@@ -3,7 +3,6 @@ from PyQt5 import uic
 from PyQt5.QtWidgets import QMessageBox
 import sqlite3
 import time
-import pandas as pd
 
 
 def listar_dados():
@@ -55,7 +54,7 @@ def salvar_dados():
     except sqlite3.Error as erro:
         print("Erro ao inserir os dados: ", erro)
         if str(erro) == 'UNIQUE constraint failed: dados.placa':
-            QMessageBox.about(tela,'Alerta','Placa ja existente')
+            QMessageBox.about(tela, 'Alerta', 'Placa ja existente')
 
 
 def pesquisar_dados():
