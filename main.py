@@ -16,7 +16,7 @@ def listar_dados():
         for j in range(0, 5):
             tela.tabela.setItem(i, j, QtWidgets.QTableWidgetItem(str(dados_lidos[i][j])))
     conn.close()
-    
+
 
 def salvar_dados():
     nome = tela.nometxt.text()
@@ -26,7 +26,6 @@ def salvar_dados():
     info = tela.infotxt.toPlainText()
     ano, mes, dia, hora, minuto, f, g, h, i = time.localtime()
     data = f'{dia:02}/{mes:02}/{ano} {hora}:{minuto:02}'
-
     try:
         banco = sqlite3.connect('banco_cadastro.db') 
         cursor = banco.cursor()
@@ -48,13 +47,14 @@ def salvar_dados():
             tela.telltxt.setText("")
             tela.placatxt.setText("")
             tela.carrotxt.setText("")
+            tela.infotxt.clear()
             print("Dados inseridos com sucesso!")
             listar_dados()
 
     except sqlite3.Error as erro:
         print("Erro ao inserir os dados: ", erro)
         if str(erro) == 'UNIQUE constraint failed: dados.placa':
-            QMessageBox.about(tela, 'Alerta', 'Placa ja existente')
+            QMessageBox.about(tela,'Alerta','Placa ja existente')
 
 
 def pesquisar_dados():
@@ -70,6 +70,7 @@ def pesquisar_dados():
     tela2.ptxtplaca.setText(placa)
     tela2.ptxtcarro.setText(carro)
     tela2.ptxtdata.setText(data)
+    tela2.ptxtinfo.setText(info)
 
 
 def limpar_dados():
@@ -87,5 +88,6 @@ tela.btnsalvar.clicked.connect(salvar_dados)
 tela.btnlimpar.clicked.connect(limpar_dados)
 tela.btnatt.clicked.connect(listar_dados)
 tela.btnpesquisar.clicked.connect(pesquisar_dados)
+tela2.btnatualizarP.clicked.connect(pesquisar_dados)
 tela.show()
 app.exec()
