@@ -347,8 +347,8 @@ background-color: rgb(60, 182, 89);
    <widget class="QPushButton" name="btneditarP">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>390</y>
+      <x>90</x>
+      <y>290</y>
       <width>131</width>
       <height>61</height>
      </rect>
