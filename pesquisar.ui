@@ -6,113 +6,156 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>612</width>
-    <height>463</height>
+    <width>933</width>
+    <height>464</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(134, 134, 134);</string>
+   <string notr="true">background-color: rgb(33, 37, 43);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTextEdit" name="ptxtinfo">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>330</x>
       <y>10</y>
-      <width>271</width>
+      <width>591</width>
       <height>371</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ptxtnome">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>10</y>
-      <width>201</width>
+      <x>80</x>
+      <y>110</y>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ptxtcarro">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>160</y>
-      <width>201</width>
+      <x>80</x>
+      <y>210</y>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ptxtplaca">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>110</y>
-      <width>201</width>
+      <x>80</x>
+      <y>60</y>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ptxttell">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>60</y>
-      <width>201</width>
+      <x>80</x>
+      <y>160</y>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="toolTip">
@@ -120,29 +163,36 @@ background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>170</y>
+      <x>20</x>
+      <y>220</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(134, 134, 134);</string>
+     <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+border-style: outset;
+color: rgb(209, 209, 209);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Carro:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -154,21 +204,26 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>20</y>
+      <x>20</x>
+      <y>120</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(134, 134, 134);</string>
+     <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+border-style: outset;
+color: rgb(209, 209, 209);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Nome:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -177,21 +232,26 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>70</y>
+      <x>30</x>
+      <y>170</y>
       <width>41</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(134, 134, 134);</string>
+     <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+border-style: outset;
+color: rgb(209, 209, 209);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Tell:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -203,21 +263,26 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>120</y>
+      <x>20</x>
+      <y>70</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(134, 134, 134);</string>
+     <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+border-style: outset;
+color: rgb(209, 209, 209);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Placa:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -227,17 +292,24 @@ background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ptxtdata">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>210</y>
-      <width>201</width>
+      <x>80</x>
+      <y>260</y>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="whatsThis">
@@ -245,29 +317,36 @@ background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(40, 44, 52);
 border-style: outset;
 border-width:2px;
-background-color: rgb(255, 255, 255);</string>
+color: rgb(209, 209, 209);</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>220</y>
+      <x>20</x>
+      <y>270</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Arial Black</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(134, 134, 134);</string>
+     <string notr="true">border-radius: 15px;
+font: 87 12pt &quot;Arial Black&quot;;
+border-style: outset;
+color: rgb(209, 209, 209);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Data:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -276,46 +355,15 @@ background-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnatualizarP">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>390</y>
-      <width>131</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-border-radius: 15px;
-border-width:2px;
-border-style:outset;
-border-color:black;
-background-color: rgb(85, 170, 255);
-}
-QPushButton:pressed{
-border-radius: 15px;
-border-width:2px;
-border-style:outset;
-border-color:black;
-background-color: rgb(52, 105, 157);
-}</string>
-    </property>
-    <property name="text">
-     <string>Atualizar</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btnsalvarP">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>630</x>
       <y>390</y>
-      <width>131</width>
+      <width>141</width>
       <height>61</height>
      </rect>
     </property>
@@ -330,14 +378,14 @@ border-radius: 15px;
 border-width:2px;
 border-style:outset;
 border-color:black;
-background-color: rgb(85, 255, 127);
+background-color: rgb(73, 156, 84);
 }
 QPushButton:pressed{
 border-radius: 15px;
 border-width:2px;
 border-style:outset;
 border-color:black;
-background-color: rgb(60, 182, 89);
+background-color: rgb(60, 129, 68);
 }</string>
     </property>
     <property name="text">
@@ -347,9 +395,9 @@ background-color: rgb(60, 182, 89);
    <widget class="QPushButton" name="btneditarP">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>290</y>
-      <width>131</width>
+      <x>330</x>
+      <y>390</y>
+      <width>141</width>
       <height>61</height>
      </rect>
     </property>
@@ -376,6 +424,112 @@ background-color: rgb(140, 0, 0);
     </property>
     <property name="text">
      <string>Editar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtedit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>16</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 16pt &quot;Arial Black&quot;;
+color: rgb(209, 209, 209);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visualizar dados&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btncancelarP">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+border-width:2px;
+border-style:outset;
+border-color:black;
+background-color: rgb(73, 156, 84);
+}
+QPushButton:pressed{
+border-radius: 15px;
+border-width:2px;
+border-style:outset;
+border-color:black;
+background-color: rgb(60, 129, 68);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnexcluirP">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>390</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius: 15px;
+border-width:2px;
+border-style:outset;
+border-color:black;
+background-color: rgb(160, 0, 0);
+}
+QPushButton:pressed{
+border-radius: 15px;
+border-width:2px;
+border-style:outset;
+border-color:black;
+background-color: rgb(140, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Excluir</string>
     </property>
    </widget>
   </widget>
